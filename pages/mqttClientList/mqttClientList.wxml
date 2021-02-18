@@ -1,0 +1,12 @@
+<view>
+  <view class="clients" wx:for="{{clientNames}}" wx:for-item="info" wx:key="key">
+    <button class="client" bindtap="gotoClient" data-name="{{info.name}}">
+      <view class="clientName">{{info.name}}</view>
+    </button>
+  </view>
+  <view class="clients">
+    <button class="client">
+      <view class="clientName">添加</view>
+    </button>
+  </view>
+</view>

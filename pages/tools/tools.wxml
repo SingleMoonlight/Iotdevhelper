@@ -1,0 +1,14 @@
+<view class = 'btns'>
+  <button class = 'btn' bindtap="gotoWeatherPage" hover-class="btn-hover">
+    <image class="btnImg" src="../../assets/btnImages/weather.png"></image>
+    <view class = 'btnText'>天气信息</view>
+  </button>
+  <button class = 'btn' bindtap="gotoMqttClientListPage" hover-class="btn-hover">
+    <image class="btnImg" src="../../assets/btnImages/mqtt.png"></image>
+    <view class = 'btnText'>MQTT客户端</view>
+  </button>
+  <button class = 'btn' bindtap="clickGoon" hover-class="btn-hover">
+    <image class="btnImg" src="../../assets/btnImages/goon.png"></image>
+    <view class = 'btnText'>正在开发...</view>
+  </button>
+</view>

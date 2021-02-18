@@ -1,0 +1,7 @@
+<view>
+  <text>获取天气</text>
+  <button bindtap="getweather" size="mini">getweather</button>
+  <view>
+    <text>{{weather}}</text>
+  </view>
+</view>

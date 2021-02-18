@@ -1,0 +1,45 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/tools/tools",
+    "pages/me/me",
+    "pages/mqttClient/mqttClient",
+    "pages/weather/weather",
+    "pages/mqttClientList/mqttClientList"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#409EFF",
+    "navigationBarTitleText": "",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#666",
+    "selectedColor": "#409EFF",
+    "backgroundColor": "#ffffff",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "iconPath": "assets/icons/home.png",
+        "selectedIconPath": "assets/icons/home_selected.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/tools/tools",
+        "iconPath": "assets/icons/tools.png",
+        "selectedIconPath": "assets/icons/tools_selected.png",
+        "text": "工具箱"
+      },
+      {
+        "pagePath": "pages/me/me",
+        "iconPath": "assets/icons/me.png",
+        "selectedIconPath": "assets/icons/me_selected.png",
+        "text": "我"
+      }
+    ],
+    "position": "bottom"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
